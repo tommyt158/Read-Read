@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    text-align: center;
+    color: #00FF00;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100vw;
+    margin: auto;
+}
+
+pre {
+    font-family: 'Trade Winds';
+    letter-spacing: 1px;
+    margin: auto;
+    
+}
+
+h1 {
+    font-family: 'Trade Winds';
+    text-shadow: 2px 2px 8px yellow;
+}
+
+h2 {
+    font-family: 'Oxanium';
+
+}
+
+hr {
+    background-color: rgb(71, 71, 71);
+    border: 5px dotted yellow;
+}
+
+.fig {
+    margin-top: -100px;
+}
+
+a {
+    color: yellow;
+    text-decoration-style: solid;
+    text-decoration-color: #00FF00;
+    text-shadow: 2px 2px 4px #00FF00;
+}
+
+table {
+margin: auto;
+font-family: 'Trade Winds';
+
+}
+
+
+h3 {
+    letter-spacing: .1em;
+    font-family: 'Trade Winds';
+    color: #ffff00;
+}
+
+p {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-family: 'Oxanium';
+    letter-spacing: 1px;
+    font-kerning: auto;
+    width: 40vw;
+    margin-top: 5vw;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+p::first-letter {
+    font-size: 2em;
+    font-family: 'Trade Winds';
+}
+
+p:nth-of-type(2n) {
+    text-align: center;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+p:nth-of-type(3n) {
+    text-align: right;
+    padding-left: 45vw;
+}
+
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    body {
+      background-color: #000000;
+    }
+    
+pre {
+        font-family: 'Trade Winds';
+        margin: auto; 
+    }
+}
+
+
+/* Phone Styles */
+@media screen and (max-width: 768px) {
+   
+    body {
+     background-color: rgb(0, 0, 0);
+    }
+
+    pre {
+        text-align: center;
+        font-size: 1.7vw;
+        line-height: 4vw;
+       }
+
+       img {
+           margin-top: 20vw;
+       }
+
+       .poem {
+           padding-top: 20px;
+           margin: auto;
+       }
+
+       a {
+           font-size: 2vw;
+       }
+
+}
